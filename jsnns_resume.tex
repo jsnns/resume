@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Jacob Sansbury
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://workbyjacob.com/}{\Large Jacob Sansbury}} & Email : \href{mailto:me@workbyjacob.com}{me@workbyjacob.com}\\
+  \href{http://workbyjacob.com/}{workbyjacob.com} & Mobile : +1-803-445-3351 \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bridgewater Associates}{Westport, CT}
+      {Security Engineer}{June 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Iris}
+          {Iris is an internal graph analysis tool designed for incident response and investigation workflows.}
+          \begin{itemize}
+          	\item Shadowed customers to build and prioritize requirements
+			\item Developed a scalable application utilizing GraphQL and React
+			\item Designed highly available and fault tolerant AWS infrastructure
+			\item Built Terraform to automate deployment of AWS resources
+          \end{itemize}
+        \resumeItem{Policy DB}
+          {is a proxy policy configuration engine designed to track the lifecycle of a policy exception and enforce configuration across multiple proxy providers.}
+      \resumeItemListEnd
+	
+	\resumeSubheading
+		{Sansbury Consulting}{Tampa, FL}
+		{Application Engineering}{October 2017 - June 2018}
+		\resumeItemListStart
+			\resumeItem{Mad Mobile Concierge}
+				{Concierge is a leading MPOS solution used globally by Brooks Brothers, Vans, and The North Face.}
+				\begin{itemize}
+					\item Developed GDPR compliant analytics system
+					\item Lead adoption of test driven development to slash regression rates across all company applications
+				\end{itemize}
+			\resumeItem{ID Plans Remote Property Manager}
+				{Remote Property Manager is a real estate management system used by property managers nationwide.}
+				\begin{itemize}
+					\item Achieved plan load time performance improvements of 2X
+					\item Migrated on-premise infrastructure to AWS
+				\end{itemize}
+		\resumeItemListEnd
+		
+	\resumeSubheading
+		{SentinelSix}{Columbia, SC}
+		{Full Stack Engineer}{June 2017 - October 2017}
+		\resumeItemListStart
+			\resumeItem{Guardian Angel}{Guardian Angel is a global personnel security solution adopted by multiple Fortune 100 companies}
+			\begin{itemize}
+             \item Implemented CI/CD pipeline with Docker Cloud and Jenkins
+             \item Built React-based real-time tracking dashboard and multi-tenant user management system.
+             \item Developed native iOS application
+             \item Built performant geospatial data ingestion endpoints, using Go.
+             \item Designed and implemented plugin management solutions to cut Webpack build times.
+             \item Slashed technical debt through preventive code review strategies and cut cloud costs through datastore index optimization strategies.
+             \item Recruited and hired emerging developers through outreach to local high schools, hiring 3 interns.
+            \end{itemize}
+		\resumeItemListEnd
+
+\resumeSubheading
+		{TCube Solutions}{Columbia, SC}
+		{Software Application Developer}{April 2016 - June 2017}
+		\resumeItemListStart
+    		\resumeItem{R\&D}{I developed and implemented business solutions and applications, while playing integral role in researching and recommending new technologies for the insurance sector. Part of this process was developing cost / benefit analyses and demonstrations.}
+			\begin{itemize}
+                \item Spearheaded research and development of use cases for potential use of blockchain technologies in the insurance sector.
+                \item Drove automation of project kickoff and task assignment processes using JIRA.
+                \item Launched internal file sharing tool to enable storage / sharing of 500 files per week.
+            \end{itemize}
+		\resumeItemListEnd
+
+
+	\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Personal Finance Toolkit}
+      {Personal finance data generation and exploration toolkit codifying my decision making logic for more accurate decision making.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
