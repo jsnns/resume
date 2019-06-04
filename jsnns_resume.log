@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 JUN 2019 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 JUN 2019 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,12 +296,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 98.
+(Font)              <7> on input line 97.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 98.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+(Font)              <5> on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
 
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -312,19 +312,19 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 
 (./jsnns_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `jsnns_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 4DAF7694FEA0620DCD1037DBA508938C;88.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
  6455 strings out of 492616
  94017 string characters out of 6129482
- 205280 words of memory out of 5000000
+ 204280 words of memory out of 5000000
  10322 multiletter control sequences out of 15000+600000
  9232 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -335,7 +335,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on jsnns_resume.pdf (1 page, 83407 bytes).
+Output written on jsnns_resume.pdf (1 page, 83689 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
