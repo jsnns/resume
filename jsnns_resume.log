@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  25 MAY 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 JUN 2019 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,7 +324,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
 Here is how much of TeX's memory you used:
  6455 strings out of 492616
  94017 string characters out of 6129482
- 204280 words of memory out of 5000000
+ 205280 words of memory out of 5000000
  10322 multiletter control sequences out of 15000+600000
  9232 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -335,7 +335,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on jsnns_resume.pdf (1 page, 83379 bytes).
+Output written on jsnns_resume.pdf (1 page, 83407 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
