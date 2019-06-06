@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.4)  6 JUN 2019 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.6.4)  6 JUN 2019 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,18 +378,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 101.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
  [1
 
 {/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 
 (./jsnns_resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `jsnns_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 64F8A56AA719A8551561181FC1EB5502;141.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
  ) 
 Here is how much of TeX's memory you used:
  6948 strings out of 494060
@@ -409,7 +409,7 @@ c/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti9.pfb>
-Output written on jsnns_resume.pdf (1 page, 123915 bytes).
+Output written on jsnns_resume.pdf (1 page, 123928 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
