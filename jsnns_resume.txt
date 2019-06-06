@@ -35,7 +35,7 @@ Experience
 
 -   --------------------------- ----------------------------
       **Consulting**                                 Tampa, FL
-      *Application Engineering*     *October 2017 - June 2018*
+      *Application Engineer*     *October 2017 - June 2018*
       --------------------------- ----------------------------
 
     -   **Mad Mobile Concierge**: is a leading MPOS solution used
@@ -52,11 +52,11 @@ Experience
 
         -   Designed a defect remediation process and provided training
 
-        -   adoption of Test Driven Development (TDD) to slash
+        -   Lead adoption of Test Driven Development (TDD) to slash
             regression rates across entire portfolio
 
-    -   **ID Plans Remote Property Manager**: is a real estate
-        management system used by property managers nationwide.
+    -   **ID Plans Remote Property Manager**: is real estate management
+        software used by property managers nationwide.
 
         -   Developed a highly scalable, SVG rendering system in Ember
 
@@ -85,7 +85,7 @@ Experience
         -   Built performant geospatial data ingestion endpoints, using
             Go and Postgres
 
-        -   Recruited and trained 3 interns through partnership with
+        -   Recruited and trained 3 interns through a partnership with
             local high schools
 
 -   ---------------------------------- --------------------------
