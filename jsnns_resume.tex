@@ -16,7 +16,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage[
-  margin=2.5cm,
+  margin=2.2cm,
   includefoot,
   footskip=30pt,
 ]{geometry}
@@ -91,21 +91,26 @@
       {Bridgewater Associates}{Westport, CT}
       {Security Engineer}{June 2018 - Present}
         \resumeItemListStart
-            \resumeItem{Iris}{is an internal graph analysis tool I designed for incident response and insider-threat workflows.}
+            \resumeItem{Iris}{is an insider threat investigation tool I designed and built.}
 			    \begin{itemize}
-				    \item Engineered a graph analysis application utilizing a hybrid GraphQL API with and Flask and Amazon RDS
+				    \item Developed a graph analysis tool set utilizing a hybrid GraphQL API with and Flask and Amazon RDS
 				   	\item Built an AWS based secure CI/CD pipeline with static code analysis using SonarCloud
-				    \item Engineered a performant React frontend to visualize complex graph data
-				    \item Designed highly fault tolerant AWS infrastructure with RDS and Fargate
+				    \item Designed and developed a performant React frontend to visualize complex graph data
+				    \item Integrated with Azure Active Directory to provide Enterprise-grade SSO
         	    \end{itemize}
-            \resumeItem{Policy DB}{is a proxy policy configuration engine designed to track the lifecycle of a policy exception and enforce configuration across multiple proxy providers.}
+            \resumeItem{Policy DB}{is a proxy configuration engine for tracking the lifecycle of policy exceptions I designed and built.}
                 \begin{itemize}
-          	        \item Implemented a temporal database architecture with Amazon Aurora to improve the quality of year-end policy audits
+          	        \item Improved the efficiency of year-end audits with a temporal data architecture
+	        		\item Integrated the policy configuration engine with RSA Archer to deliver real-time risk monitoring
+					\item Built a React frontend backed by a GraphQL API
+					\item Designed highly fault tolerant multi availability zone AWS architecture with RDS and Fargate
 				\end{itemize}
         \resumeItemListEnd
         \begin{itemize}
-			\item Built proxy user experience health dashboard with Selenium and Splunk
+			\item Built proxy health Splunk dashboard with Selenium and PagerDuty
 			\item Built operations automation platform with Rundeck and Ansible
+			\item Designed a secure code promotion pipeline with Gerrit and on-premise Bitbucket
+			\item Automated Qualys maintenance tasks
        	\end{itemize}
 
 	\resumeSubheading
@@ -115,17 +120,16 @@
 			\resumeItem{Mad Mobile Concierge}
 				{is a leading MPOS solution used globally by Brooks Brothers, Vans, and The North Face.}
 				\begin{itemize}
-					\item Developed and integrated a GDPR compliant analytics system in React
-					\item Modernized a large-scale React application introducing the Redux paradigm
+					\item Developed a GDPR compliant analytics system for React and Mixpanel
+					\item Modernized and refactored a large-scale React application introducing the Redux paradigm
 					\item Integrated Sentry.io to increase defect awareness and reduce remediation time
 					\item Designed a defect remediation process and provided training
 					\item Lead adoption of Test Driven Development (TDD) to slash regression rates across entire portfolio
 				\end{itemize}
-			\resumeItem{ID Plans Remote Property Manager}{is real estate management software used by property managers nationwide.}
+			\resumeItem{ID Plans Remote Property Manager}{is a real-estate management portal used by property managers nationwide.}
 				\begin{itemize}
 					\item Developed a highly scalable, SVG rendering system in Ember
-					\item Doubled performance on a large Ember frontend app
-					\item Migrated monolithic on-premise infrastructure to AWS based micro-services
+					\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
 				\end{itemize}
 		\resumeItemListEnd
 
@@ -135,11 +139,9 @@
 		\resumeItemListStart
 			\resumeItem{Guardian Angel}{is a global personnel security solution adopted by multiple Fortune 100 companies}
 			\begin{itemize}
-             \item Implemented AWS based CI/CD pipeline with Docker Cloud and Codebuild
-             \item Built a real-time geospatial tracking dashboard with React and MongoDB
-             \item Built a multi-tenant user management system with React and Postgres
-             \item Built performant geospatial data ingestion endpoints, using Go and Postgres
-             \item Recruited and trained 3 interns through a partnership with local high schools
+             \item Built a real-time geospatial tracking dashboard with React and Postgres
+             \item Built a multi-tenant user management system with React and MongoDB
+             \item Built performant cloud-first geospatial data ingestion endpoint, using Go and Postgres
             \end{itemize}
 		\resumeItemListEnd
 
@@ -147,12 +149,12 @@
 		{TCube Solutions}{Columbia, SC}
 		{Software Application Developer}{April 2016 - June 2017}
 		\resumeItemListStart
+			\resumeItem{JIRA Project Kickoff}{is a tool for creating projects and assigning tasks based on requirement templates. I built a plugin to automate project kickoff by creating and assigning JIRA tasks through the JIRA API}
     		\resumeItem{Blockchain R\&D}{Researching new technologies and designing prototypes for use in insurance}
 				\begin{itemize}
                 	\item Explored blockchain potential for the insurance sector
                 	\item Prototyped and demoed a distributed insurance market
             	\end{itemize}
-			\resumeItem{JIRA Project Kickoff}{is a tool for creating projects and assigning tasks based on requirement templates. I built a plugin to automate project kickoff by creating and assigning JIRA tasks through the JIRA API}
 		\resumeItemListEnd
 
 
@@ -161,8 +163,8 @@
 %-----------PROJECTS-----------------
 \section{Projects}
     \resumeSubHeadingListStart
-        \resumeSubItem{Futurecast}{is a long-term financial data generation and exploration toolkit I built to codify my financial decision making logic. Futurecast was designed and built to improve decision making efficiency and accuracy}
-        \resumeSubItem{SkyFlix}{is an offline in-flight entertainment system designed for plug and play use on private jets. SkyFlix is in use by many customers most notably Air Force 1}
+        \resumeSubItem{Futurecast}{is a long-term financial data generation and exploration toolkit I built to codify my financial decision making logic. Futurecast was designed and built to improve decision making efficiency and accuracy.}
+        \resumeSubItem{SkyFlix}{is an offline in-flight entertainment system designed for plug and play use on private jets. SkyFlix is in use by many customers most notably Air Force 1.}
     \resumeSubHeadingListEnd
 
 
@@ -170,21 +172,24 @@
  \section{Programming Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: Python, JavaScript, TypeScript, Swift, Go, SQL}
+      \textbf{Languages}{: JavaScript, Python, Rust, Go, Swift, SQL}
       \hfill
-      \textbf{Cloud Providers}{: AWS, Azure, Herkou}
+      \textbf{Cloud Providers}{: AWS, Azure, Herkou, Firebase}
     }
     \item {
-    	\textbf{Technologies}{: GraphQL, Rest, MongoDB, Amazon Aurora, Postgres, Terraform, Neo4j}
+    	\textbf{Databases}{: MongoDB, Amazon Aurora, Postgres, Neo4j }
 	}
     \item {
-		\textbf{Frameworks}{: React Native, Express, Flask, Expo, Webpack, Electron, UIKit, ARKit, }
+    	\textbf{Technologies}{: GraphQL, Terraform, Protobuff, Selenium }
+	}
+    \item {
+		\textbf{Frameworks}{: React, React-Native, Express.js, Apollo, Jest, Ava, Flask, Expo, Electron, ARKit }
 	}
 	\item {
-	    \textbf{Paradigms}{: Cloud Native, TDD, Functional, OOP}
+	    \textbf{Paradigms}{: TDD, Functional, OOP, Microservices, Infrastructure as Code, Cloud Native }
     }
     \item {
-    	\textbf{Software}{: Jira, Splunk, Qualys}
+    	\textbf{Software}{: Jira, Splunk, Qualys, RSA Archer, Active Directory, Gerrit, GitLab, Rundeck, PagerDuty }
     }
   \resumeSubHeadingListEnd
 
