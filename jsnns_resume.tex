@@ -89,49 +89,39 @@
 
     \resumeSubheading
       {Bridgewater Associates}{Westport, CT}
-      {Security Engineer}{June 2018 - Present}
+		{Security Engineer}{June 2018 - Present}
         \resumeItemListStart
-            \resumeItem{Iris}{is an insider threat investigation tool I designed and built.}
+            \resumeItem{Iris}{I designed and developed a suite of tools to assist Bridgewater's staff security team with insider threat investigations}
 			    \begin{itemize}
-				    \item Developed a graph analysis tool set utilizing a hybrid GraphQL API with and Flask and Amazon RDS
-				   	\item Built an AWS based secure CI/CD pipeline with static code analysis using SonarCloud
-				    \item Designed and developed a performant React frontend to visualize complex graph data
-				    \item Integrated with Azure Active Directory to provide Enterprise-grade SSO
+				    \item Wrapped graph analysis tools in a user friendly and domain specific user interface
+				    \item Designed data infrastructure for a graph with more than ten thousand (10,000) nodes and a density of 2 or more
+				   	\item Deployed with a custom secure CI/CD pipeline with static code analysis using SonarCloud
+				    \item Enabled authorization with Azure Active Directory SSO
         	    \end{itemize}
             \resumeItem{Policy DB}{is a proxy configuration engine for tracking the lifecycle of policy exceptions I designed and built.}
                 \begin{itemize}
-          	        \item Improved the efficiency of year-end audits with a temporal data architecture
+          	        \item Improved the accuracy of year-end audits with a temporal data architecture
 	        		\item Integrated the policy configuration engine with RSA Archer to deliver real-time risk monitoring
-					\item Built a React frontend backed by a GraphQL API
 					\item Designed highly fault tolerant multi availability zone AWS architecture with RDS and Fargate
 				\end{itemize}
         \resumeItemListEnd
         \begin{itemize}
-			\item Built proxy health Splunk dashboard with Selenium and PagerDuty
-			\item Built operations automation platform with Rundeck and Ansible
+			\item Queried page load time with Selenium jobs on devices in multiple office locations
 			\item Designed a secure code promotion pipeline with Gerrit and on-premise Bitbucket
-			\item Automated Qualys maintenance tasks
+			\item Improved monitoring of critical infrastructure by developing tooling for on-premise packet capture infrastructure
        	\end{itemize}
 
 	\resumeSubheading
 		{Consulting}{Tampa, FL}
 		{Application Engineering}{October 2017 - June 2018}
-		\resumeItemListStart
-			\resumeItem{Mad Mobile Concierge}
-				{is a leading MPOS solution used globally by Brooks Brothers, Vans, and The North Face.}
 				\begin{itemize}
-					\item Developed a GDPR compliant analytics system for React and Mixpanel
-					\item Modernized and refactored a large-scale React application introducing the Redux paradigm
+					\item Prepared company-wide analytics system for GDPR
+					\item Reduced tech debt by refactoring a large-scale React application and improving state management with Redux
 					\item Integrated Sentry.io to increase defect awareness and reduce remediation time
-					\item Designed a defect remediation process and provided training
-					\item Lead adoption of Test Driven Development (TDD) to slash regression rates across entire portfolio
-				\end{itemize}
-			\resumeItem{ID Plans Remote Property Manager}{is a real-estate management portal used by property managers nationwide.}
-				\begin{itemize}
+					\item Lead adoption of Test Driven Development (TDD) to slash regression rates across multiple applications
 					\item Developed a highly scalable, SVG rendering system in Ember
 					\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
 				\end{itemize}
-		\resumeItemListEnd
 
 	\resumeSubheading
 		{SentinelSix}{Columbia, SC}
@@ -140,7 +130,6 @@
 			\resumeItem{Guardian Angel}{is a global personnel security solution adopted by multiple Fortune 100 companies}
 			\begin{itemize}
              \item Built a real-time geospatial tracking dashboard with React and Postgres
-             \item Built a multi-tenant user management system with React and MongoDB
              \item Built performant cloud-first geospatial data ingestion endpoint, using Go and Postgres
             \end{itemize}
 		\resumeItemListEnd
@@ -148,23 +137,29 @@
     \resumeSubheading
 		{TCube Solutions}{Columbia, SC}
 		{Software Application Developer}{April 2016 - June 2017}
-		\resumeItemListStart
-			\resumeItem{JIRA Project Kickoff}{is a tool for creating projects and assigning tasks based on requirement templates. I built a plugin to automate project kickoff by creating and assigning JIRA tasks through the JIRA API}
-    		\resumeItem{Blockchain R\&D}{Researching new technologies and designing prototypes for use in insurance}
-				\begin{itemize}
-                	\item Explored blockchain potential for the insurance sector
-                	\item Prototyped and demoed a distributed insurance market
-            	\end{itemize}
-		\resumeItemListEnd
-
 
 	\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
     \resumeSubHeadingListStart
-        \resumeSubItem{Futurecast}{is a long-term financial data generation and exploration toolkit I built to codify my financial decision making logic. Futurecast was designed and built to improve decision making efficiency and accuracy.}
-        \resumeSubItem{SkyFlix}{is an offline in-flight entertainment system designed for plug and play use on private jets. SkyFlix is in use by many customers most notably Air Force 1.}
+        \resumeSubItem{Futurecast}{I built a long-term financial planning toolkit to codify my financial decision making logic. Futurecast was designed to make my decisions more efficient and accurate.}
+        \begin{itemize}
+			\item Built Futurecast as a performant React frontend with a GraphQL/Postgres data layer
+			\item Designed a free CI/CD pipeline with GitLab and Netlify
+        \end{itemize}
+
+        \resumeSubItem{SkyFlix}{I built software for an in-flight entertainment system used on business jets.}
+		\begin{itemize}
+			\item Built SkyFlix as a React Native mobile app with a REST backend
+			\item Designed and optimized the app to run offline for years
+        \end{itemize}
+
+        \resumeSubItem{Switch CMS}{Cabin management systems for planes are expensive, Switch CMS is an alternative solution with modern technology.}
+		\begin{itemize}
+			\item Integrated a React Native mobile app with Global Cache devices to control serial and IR devices.
+			\item Discovered current commands and devices through reverse engineering the CAN bus infrastructure.
+        \end{itemize}
     \resumeSubHeadingListEnd
 
 
@@ -172,18 +167,17 @@
  \section{Programming Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: JavaScript, Python, Rust, Go, Swift, SQL}
+      \textbf{Languages}{: JavaScript, Python, Rust, Go, Swift, SQL, Terraform}
       \hfill
       \textbf{Cloud Providers}{: AWS, Azure, Herkou, Firebase}
     }
     \item {
-    	\textbf{Databases}{: MongoDB, Amazon Aurora, Postgres, Neo4j }
+      \textbf{Databases}{: MongoDB, Amazon Aurora, Postgres, Neo4j }
+      \hfill
+	  \textbf{Technologies}{: GraphQL, REST  }
 	}
     \item {
-    	\textbf{Technologies}{: GraphQL, Terraform, Protobuff, Selenium }
-	}
-    \item {
-		\textbf{Frameworks}{: React, React-Native, Express.js, Apollo, Jest, Ava, Flask, Expo, Electron, ARKit }
+		\textbf{Frameworks}{: React, Expo, Express.js, Flask, Electron, ARKit }
 	}
 	\item {
 	    \textbf{Paradigms}{: TDD, Functional, OOP, Microservices, Infrastructure as Code, Cloud Native }
