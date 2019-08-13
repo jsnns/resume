@@ -29,10 +29,10 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.4in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -90,10 +90,14 @@
     \resumeSubheading
       {Bridgewater Associates}{Westport, CT}
 		{Security Engineer}{June 2018 - Present}
-        \resumeItemListStart
-            \resumeItem{Iris}{I designed and developed a suite of tools to assist Bridgewater's staff security team with insider threat investigations}
+		\resumeItemListStart
+
+			\item Improved monitoring of critical infrastructure with tooling for on-premise packet capture infrastructure
+			\item Instilled a 'DevOps' mindset amongst sys-admins through lunch and learns and demos
+
+            \resumeItem{Iris}{I designed and developed a suite of investigation tools to reduce the impact of insider threat attack vectors}
 			    \begin{itemize}
-				    \item Wrapped graph analysis tools in a user friendly and domain specific user interface
+				    \item Wrapped graph analysis tools in a user-friendly domain-specific user interface
 				    \item Designed data infrastructure for a graph with more than ten thousand (10,000) nodes and a density of 2 or more
 				   	\item Deployed with a custom secure CI/CD pipeline with static code analysis using SonarCloud
 				    \item Enabled authorization with Azure Active Directory SSO
@@ -102,36 +106,28 @@
                 \begin{itemize}
           	        \item Improved the accuracy of year-end audits with a temporal data architecture
 	        		\item Integrated the policy configuration engine with RSA Archer to deliver real-time risk monitoring
-					\item Designed highly fault tolerant multi availability zone AWS architecture with RDS and Fargate
+					\item Designed highly fault-tolerant multi availability zone AWS architecture with RDS and Fargate
 				\end{itemize}
         \resumeItemListEnd
-        \begin{itemize}
-			\item Queried page load time with Selenium jobs on devices in multiple office locations
-			\item Designed a secure code promotion pipeline with Gerrit and on-premise Bitbucket
-			\item Improved monitoring of critical infrastructure by developing tooling for on-premise packet capture infrastructure
-       	\end{itemize}
 
 	\resumeSubheading
 		{Consulting}{Tampa, FL}
 		{Application Engineering}{October 2017 - June 2018}
-				\begin{itemize}
-					\item Prepared company-wide analytics system for GDPR
-					\item Reduced tech debt by refactoring a large-scale React application and improving state management with Redux
-					\item Integrated Sentry.io to increase defect awareness and reduce remediation time
-					\item Lead adoption of Test Driven Development (TDD) to slash regression rates across multiple applications
-					\item Developed a highly scalable, SVG rendering system in Ember
-					\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
-				\end{itemize}
+		\resumeItemListStart
+			\item Refactored a large-scale React application and improved state management with Redux
+			\item Deployed crash reporting (Sentry.io) to reduce defect remediation time
+			\item Slash regression rates across multiple applications by leading adoption of TDD
+			\item Developed a highly scalable, SVG rendering system in Ember
+			\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
+			\item Prepared company-wide analytics system for GDPR
+		\resumeItemListEnd
 
 	\resumeSubheading
 		{SentinelSix}{Columbia, SC}
 		{Full Stack Engineer}{June 2017 - October 2017}
 		\resumeItemListStart
-			\resumeItem{Guardian Angel}{is a global personnel security solution adopted by multiple Fortune 100 companies}
-			\begin{itemize}
-             \item Built a real-time geospatial tracking dashboard with React and Postgres
-             \item Built performant cloud-first geospatial data ingestion endpoint, using Go and Postgres
-            \end{itemize}
+             \item Built a real-time tracking dashboard with a throughput of 10,000 geospatial points per second (React and Postgres)
+             \item Developed a performant cloud-first geospatial data ingestion endpoint (Go and Postgres)
 		\resumeItemListEnd
 
     \resumeSubheading
@@ -158,7 +154,7 @@
         \resumeSubItem{Switch CMS}{Cabin management systems for planes are expensive, Switch CMS is an alternative solution with modern technology.}
 		\begin{itemize}
 			\item Integrated a React Native mobile app with Global Cache devices to control serial and IR devices.
-			\item Discovered current commands and devices through reverse engineering the CAN bus infrastructure.
+			\item Discovered current commands and devices through reverse-engineering the CAN bus infrastructure.
         \end{itemize}
     \resumeSubHeadingListEnd
 
@@ -169,7 +165,7 @@
     \item{
       \textbf{Languages}{: JavaScript, Python, Rust, Go, Swift, SQL, Terraform}
       \hfill
-      \textbf{Cloud Providers}{: AWS, Azure, Herkou, Firebase}
+      \textbf{Cloud Providers}{: AWS, Azure, Heroku, Firebase}
     }
     \item {
       \textbf{Databases}{: MongoDB, Amazon Aurora, Postgres, Neo4j }
