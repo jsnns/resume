@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  13 AUG 2019 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 AUG 2019 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,11 +373,11 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 105.
+(Font)              <9> on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 105.
+(Font)              <6> on input line 106.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
  [1
 
@@ -407,7 +407,7 @@ r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on jsnns_resume.pdf (1 page, 120867 bytes).
+Output written on jsnns_resume.pdf (1 page, 120569 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

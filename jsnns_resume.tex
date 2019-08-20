@@ -94,19 +94,20 @@
 
 			\item Improved monitoring of critical infrastructure with tooling for on-premise packet capture infrastructure
 			\item Instilled a 'DevOps' mindset amongst sys-admins through lunch and learns and demos
+			\item Designed and built cloud-agnostic Terraform modules to future-proof Bridgewater's infrastructure deployments
 
             \resumeItem{Iris}{I designed and developed a suite of investigation tools to reduce the impact of insider threat attack vectors}
 			    \begin{itemize}
 				    \item Wrapped graph analysis tools in a user-friendly domain-specific user interface
 				    \item Designed data infrastructure for a graph with more than ten thousand (10,000) nodes and a density of 2 or more
-				   	\item Deployed with a custom secure CI/CD pipeline with static code analysis using SonarCloud
+				   	\item Built a custom Azure CI/CD pipeline to deploy Iris with static code analysis using SonarCloud
 				    \item Enabled authorization with Azure Active Directory SSO
         	    \end{itemize}
             \resumeItem{Policy DB}{is a proxy configuration engine for tracking the lifecycle of policy exceptions I designed and built.}
                 \begin{itemize}
-          	        \item Improved the accuracy of year-end audits with a temporal data architecture
+          	        \item Improved the accuracy of year-end policy audits with a temporal data architecture
 	        		\item Integrated the policy configuration engine with RSA Archer to deliver real-time risk monitoring
-					\item Designed highly fault-tolerant multi availability zone AWS architecture with RDS and Fargate
+					\item Implemented Terraform-backed multi-availability-zone AWS infrastructure with RDS and Fargate
 				\end{itemize}
         \resumeItemListEnd
 
@@ -115,19 +116,17 @@
 		{Application Engineering}{October 2017 - June 2018}
 		\resumeItemListStart
 			\item Refactored a large-scale React application and improved state management with Redux
-			\item Deployed crash reporting (Sentry.io) to reduce defect remediation time
-			\item Slash regression rates across multiple applications by leading adoption of TDD
-			\item Developed a highly scalable, SVG rendering system in Ember
+			\item Deployed client based crash reporting (Sentry.io) to reduce defect remediation time
+			\item Lead adoption of TDD across two teams of ten engineers
 			\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
-			\item Prepared company-wide analytics system for GDPR
+			\item Prepared company-wide mixpanel analytics system for GDPR by deploying global ETL service
 		\resumeItemListEnd
 
 	\resumeSubheading
 		{SentinelSix}{Columbia, SC}
 		{Full Stack Engineer}{June 2017 - October 2017}
 		\resumeItemListStart
-             \item Built a real-time tracking dashboard with a throughput of 10,000 geospatial points per second (React and Postgres)
-             \item Developed a performant cloud-first geospatial data ingestion endpoint (Go and Postgres)
+             \item Built a real-time asset tracking dashboard with a throughput of 10,000 geospatial points per second (React and Postgres)
 		\resumeItemListEnd
 
     \resumeSubheading
@@ -147,14 +146,15 @@
 
         \resumeSubItem{SkyFlix}{I built software for an in-flight entertainment system used on business jets.}
 		\begin{itemize}
-			\item Built SkyFlix as a React Native mobile app with a REST backend
+			\item Built SkyFlix as a React Native mobile app with a REST backend (Go)
 			\item Designed and optimized the app to run offline for years
         \end{itemize}
 
         \resumeSubItem{Switch CMS}{Cabin management systems for planes are expensive, Switch CMS is an alternative solution with modern technology.}
 		\begin{itemize}
-			\item Integrated a React Native mobile app with Global Cache devices to control serial and IR devices.
-			\item Discovered current commands and devices through reverse-engineering the CAN bus infrastructure.
+			\item Integrated a React Native mobile app with Global Cache devices to control serial and IR devices over TCP sockets
+			\item Discovered system commands through reverse-engineering aircraft CAN bus infrastructure
+			\item Built a TCP socket relay with Rust and deployed multiple aircraft with RaspberryPi Zeros
         \end{itemize}
     \resumeSubHeadingListEnd
 
