@@ -85,77 +85,74 @@
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
+  
+	 \resumeSubheading
+ 	{Saleae Inc.}{San Francisco, CA}
+ 	{Full Stack Software Engineer}{November 2019 - Present}
+         	\resumeItemListStart
+        			\item Reduced single frame render time by 50\% for a 400 Ms/s mixed-signal oscilloscope rendering pipeline written in C++ and Typescript
+        			\item Invented a Typescript library to upgrade and downgrade more than 100 typescript types across software versions
+        		\resumeItemListEnd
 
-    \resumeSubheading
-      {Bridgewater Associates}{Westport, CT}
-		{Security Engineer}{June 2018 - Present}
+	\resumeSubheading
+      	{Bridgewater Associates}{Westport, CT}
+	{Security Engineer}{June 2018 - Present}
 		\resumeItemListStart
-
-			\item Improved monitoring of critical infrastructure with tooling for on-premise packet capture infrastructure
-			\item Instilled a 'DevOps' mindset amongst sys-admins through lunch and learns and demos
-			\item Designed and built cloud-agnostic Terraform modules to future-proof Bridgewater's infrastructure deployments
-
-            \resumeItem{Iris}{I designed and developed a suite of investigation tools to reduce the impact of insider threat attack vectors}
-			    \begin{itemize}
-				    \item Wrapped graph analysis tools in a user-friendly domain-specific user interface
-				    \item Designed data infrastructure for a graph with more than ten thousand (10,000) nodes and a density of 2 or more
-				   	\item Built a custom Azure CI/CD pipeline to deploy Iris with static code analysis using SonarCloud
-				    \item Enabled authorization with Azure Active Directory SSO
-        	    \end{itemize}
-            \resumeItem{Policy DB}{is a proxy configuration engine for tracking the lifecycle of policy exceptions I designed and built.}
-                \begin{itemize}
-          	        \item Improved the accuracy of year-end policy audits with a temporal data architecture
-	        		\item Integrated the policy configuration engine with RSA Archer to deliver real-time risk monitoring
-					\item Implemented Terraform-backed multi-availability-zone AWS infrastructure with RDS and Fargate
+			\resumeItem{Insider Threat Investigation Toolset}{Engineered investigation tools to mitigate insider threat attack vectors}
+				\begin{itemize}
+					\item Engineered a set of 3 investigation tools to mitigate insider threat attack vectors each included tie-ins to AWS infrastructure and a React/Typescript frontend
+					\item Engineered multithreaded front end data processing pipelines for rendering graph data on an HTML5 Canvas with more than ten thousand nodes and twenty thousand edges
+					\item Decreased staff training time by three days through wrapping complicated but powerful graph analysis tools into a user-friendly React user interface
 				\end{itemize}
-        \resumeItemListEnd
+			\resumeItem{Proxy Policy Configuration Engine}{Built tracking and auditing software for proxy policy exceptions}
+				\begin{itemize}
+					\item Mitigated risk for over 1,000 policy exception by integrating Bridgewater's proxy configuration engine with RSA Archer
+					\item Built a proxy configuration engine that tracks over one thousand active policy exceptions in React and Golang
+				\end{itemize}
 
-	\resumeSubheading
-		{Consulting}{Tampa, FL}
-		{Application Engineering}{October 2017 - June 2018}
-		\resumeItemListStart
-			\item Refactored a large-scale React application and improved state management with Redux
-			\item Deployed client based crash reporting (Sentry.io) to reduce defect remediation time
-			\item Lead adoption of TDD across two teams of ten engineers
-			\item Migrated monolithic on-premise infrastructure to AWS based micro-services seeing downtime cut in half
-			\item Prepared company-wide mixpanel analytics system for GDPR by deploying global ETL service
+			\resumeItem{Security Infrastructure}{}
+				\begin{itemize}
+					\item Migrated a Docker build pipeline to Bazel for 80\% smaller builds and reduced attack surface
+					\item Improved critical infrastructure visibility by 90\% though new tooling for packet capture
+					\item Grew AWS Terraform adoption by 5x through education sessions and team demos
+					\item Embedded static code analysis in over 100 CI/CD pipelines with SonarCloud
+					\item Implemented Terraform-backed multi-availability-zone AWS infrastructure with RDS and Fargate to store and process terabytes of graph data
+				\end{itemize}
+			
 		\resumeItemListEnd
 
 	\resumeSubheading
-		{SentinelSix}{Columbia, SC}
-		{Full Stack Engineer}{June 2017 - October 2017}
+	{Mad Mobile}{Tampa, FL}
+	{Front End Software Developer}{October 2017 - June 2018}
 		\resumeItemListStart
-             \item Built a real-time asset tracking dashboard with a throughput of 10,000 geospatial points per second (React and Postgres)
+			\item Reduced defect remediation time across more than 10,000 clients by implmenting Sentry.io in React and C++ codebases
+			\item Decreased downtime by 50\% by migrating monolithic Node.js on-premise infrastructure to AWS lambda micro-services
+			\item Engineered a GDPR compliant analytics system with an average throughput of 100,000 events per second on AWS Fargate
+			\item Lead adoption of TDD across a team of ten engineers
 		\resumeItemListEnd
+
+	\resumeSubheading
+	{SentinelSix}{Columbia, SC}
+	{Full Stack Engineer}{June 2017 - October 2017}
 
     \resumeSubheading
-		{TCube Solutions}{Columbia, SC}
-		{Software Application Developer}{April 2016 - June 2017}
-
+	{TCube Solutions}{Columbia, SC}
+	{Software Application Developer}{April 2016 - June 2017}
 	\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
     \resumeSubHeadingListStart
-        \resumeSubItem{Futurecast}{I built a long-term financial planning toolkit to codify my financial decision making logic. Futurecast was designed to make my decisions more efficient and accurate.}
-        \begin{itemize}
-			\item Built Futurecast as a performant React frontend with a GraphQL/Postgres data layer
-			\item Designed a free CI/CD pipeline with GitLab and Netlify
-        \end{itemize}
+		\resumeSubItem{Typescript Migration}{Invented a library to manage versions of TypeScript types}
+        
+		\resumeSubItem{Switch CMS}{Cabin management systems for planes are expensive and a decade behind current technology. Switch is an alternative solution with modern technology}
+			\begin{itemize}
+				\item Integrated a React Native mobile app with Global Cache devices to control up to twenty devices over serial and IR
+				\item Created a plug and play device controller capable of reverse engineering aircraft CAN bus infrastructure to discover and expose device control through a subnet facing service in C++ and Go
+			\end{itemize}
 
-        \resumeSubItem{SkyFlix}{I built software for an in-flight entertainment system used on business jets.}
-		\begin{itemize}
-			\item Built SkyFlix as a React Native mobile app with a REST backend (Go)
-			\item Designed and optimized the app to run offline for years
-        \end{itemize}
-
-        \resumeSubItem{Switch CMS}{Cabin management systems for planes are expensive, Switch CMS is an alternative solution with modern technology.}
-		\begin{itemize}
-			\item Integrated a React Native mobile app with Global Cache devices to control serial and IR devices over TCP sockets
-			\item Discovered system commands through reverse-engineering aircraft CAN bus infrastructure
-			\item Built a TCP socket relay with Rust and deployed multiple aircraft with RaspberryPi Zeros
-        \end{itemize}
+		\resumeSubItem{SkyFlix}{Developed in-flight entertainment software for business jets including some of Boeing's top government customers with React Native and C++}
     \resumeSubHeadingListEnd
 
 
