@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  24 FEB 2020 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  3 MAR 2020 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -386,22 +386,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./jsnns_resume.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
-
-
-Package rerunfilecheck Warning: File `jsnns_resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `jsnns_resume.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  64F8A56AA719A8551561181FC1EB5502;141.
+Package rerunfilecheck Info: File `jsnns_resume.out' has not changed.
+(rerunfilecheck)             Checksum: 64F8A56AA719A8551561181FC1EB5502;141.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 6945 strings out of 492616
- 100846 string characters out of 6129482
- 222495 words of memory out of 5000000
- 10807 multiletter control sequences out of 15000+600000
+ 6949 strings out of 492616
+ 100881 string characters out of 6129482
+ 222515 words of memory out of 5000000
+ 10811 multiletter control sequences out of 15000+600000
  8209 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,11n,43p,219b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -414,10 +407,10 @@ r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/l
 ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on jsnns_resume.pdf (1 page, 123647 bytes).
+Output written on jsnns_resume.pdf (1 page, 123610 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
