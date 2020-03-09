@@ -49,9 +49,13 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+  \item{
+    \textbf{#1}{: #2}
   }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+	\textbf{#1}{: #2 \vspace{-2pt}}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -91,59 +95,58 @@
  	{Saleae Inc.}{San Francisco, CA}
  	{Full-Stack Software Engineer}{November 2019 - Current}
          	\resumeItemListStart
-        			\item Reduced single-frame render time by 50\% for a 400 Ms/s mixed-signal oscilloscope rendering pipeline written in C++ and Typescript
-        			\item Developed a Typescript library to upgrade and downgrade more than 100 typescript types across software versions
+        			\item Reduced single-frame render time by 50\% for a mixed-signal oscilloscope rendering system in C++ and Typescript
+        			\item Authored a Typescript library to upgrade and downgrade more than 100 typescript types across software versions
         		\resumeItemListEnd
 
 	\resumeSubheading
 	{Bridgewater Associates}{Westport, CT}
 	{Security Software Engineer}{June 2018 - November 2019}
-		\resumeItemListStart
-			\resumeItem{Insider Threat Investigation Toolset}{Engineered investigation tools to mitigate insider threat attack vectors}
+		\begin{itemize}[leftmargin=4pt]
+			\vspace{7pt}
+			\resumeItemNoBullet{Insider Threat Investigation Toolset}{}
 				\begin{itemize}
-					\item Engineered a set of 3 investigation tools to mitigate insider threat attack vectors
-					\item Built data collection services for AWS, Azure, and on-site endpoints including Exchange, S3, RDS, and SAML via SSO
-					\item Engineered a GraphQL backend interface to access millions of graph nodes and relationships persisted in Neo4j
-					\item Lead five investigators though training on new investigation tools in less than two weeks
-				\end{itemize}
-			\resumeItem{Proxy Policy Configuration Engine}{Built tracking and auditing software for proxy policy exceptions}
-				\begin{itemize}
-					\item Mitigated risk for over one thousand policy exception by integrating Bridgewater's proxy configuration engine with RSA Archer
-					\item Built a proxy configuration engine that tracks over 10,000 active policy exceptions in Go
-					\item Designed a yearly audit system spanning across four departments and thousands of active audit items
+					\item Engineered a set of 3 investigation tools with Go and Rust to mitigate insider threat attack vectors
+					\item Built data collection services for AWS/Azure and on-site endpoints for Exchange, S3, RDS, and SAML via SSO
+					\item Engineered a Go GraphQL backend interface to access millions of graph nodes and relationships persisted in Neo4j
+					\item Coached five investigators though training on new investigation tools over three weeks
 				\end{itemize}
 
-			\resumeItem{Security Infrastructure}{}
+			\resumeItemNoBullet{Proxy Policy Configuration Engine}{}
 				\begin{itemize}
-					\item Reduced container attack surface by 80\% by moving AWS build pipelines to Bazel
-					\item Built AWS infrastructure to process terabytes of graph data per week
+					\item Managed a proxy configuration engine tracking over 10,000 policy exceptions developed in Go on AWS EKS
+					\item Collaborated with five teams on processes to mitigate risk for over 1,000 policy exceptions
+					\item Defined a yearly audit process spanning across four departments and thousands of active audit items
+				\end{itemize}
+
+			\resumeItemNoBullet{Security Infrastructure}{}
+				\begin{itemize}
+					\item Reduced container attack surface by 80\% through refactoring AWS build pipelines to utilize Bazel
+					\item Architected and built AWS infrastructure to process terabytes of graph data per week
 					\item Improved critical infrastructure visibility by 90\% though new network visibility tooling
-					\item Grew Terraform adoption by 5x through education sessions and team demos
+					\item Lead 5x department-wide grow of Terraform adoption through education sessions and team demos
 					\item Designed a static code analysis pipeline for over 100 CI/CD pipelines with SonarCloud
 				\end{itemize}
-			
-		\resumeItemListEnd
+		\end{itemize}
 
 	\resumeSubheading
 	{Mad Mobile}{Tampa, FL}
 	{Software Engineer}{October 2017 - June 2018}
 		\resumeItemListStart
-			\item Reduced remediation time across more than 10,000 clients by implmenting Sentry.io in React and C++ codebases
-			\item Reduce downtime by 50\% though migrating monolithic Node.js servies to AWS lambda micro-services
 			\item Created a GDPR compliant analytics system for an average throughput of 100k events/second  on AWS Fargate
 			\item Lead adoption of TDD across a team of ten engineers
 		\resumeItemListEnd
 
 	\resumeSubheading
-		{SentinelSix}{Columbia, SC}
-		{Full-Stack Developer}{June 2017 - October 2017}
+	{SentinelSix}{Columbia, SC}
+	{Full-Stack Developer}{June 2017 - October 2017}
 		\resumeItemListStart
-			\item Implemented geojson capture infracture supporting realtime tracking of \textgreater10,000 iOS devices
+			\item Implemented data capture infrastructure supporting real-time tracking of \textgreater10,000 iOS devices
 		\resumeItemListEnd
 
 	\resumeSubheading
-		{TCube Solutions}{Columbia, SC}
-		{Software Application Developer}{April 2016 - June 2017}
+	{TCube Solutions}{Columbia, SC}
+	{Software Application Developer}{April 2016 - June 2017}
 
 \resumeSubHeadingListEnd
 
@@ -152,19 +155,15 @@
 	\resumeSubHeadingListStart
 		\resumeSubItem{Eyelang}{A dynamically typed interpreted language written as sentences}
 			\begin{itemize}
-				\item Designed a language grammer close to english sentences
-				\item Developed a Rust lexer, parser, and interpreter for Eyelang's grammar
+				\item Implemented a Rust lexer, parser, and interpreter for Eyelang's grammar
 			\end{itemize}
-
-		\resumeSubItem{Typescript Migration}{Developed a library to manage versions of TypeScript types}
         
-		\resumeSubItem{Switch CMS}{Switch is a modern alternative to out of date and costly cabin management systems.}
+		\resumeSubItem{Switch CMS}{Switch is a modern alternative to out of date and costly cabin management systems}
 			\begin{itemize}
-				\item Integrated a React Native mobile app with Global Cache devices to control up to twenty devices over serial and IR
-				\item Created a plug and play device controller capable of reverse engineering aircraft CAN bus infrastructure to discover and expose device control through a subnet facing service in C++ and Go
+				\item Created a device controller capable of reverse engineering aircraft CAN bus signals to discover device control commands in C++
 			\end{itemize}
 
-		\resumeSubItem{SkyFlix}{Developed in-flight entertainment software for business jets including some of Boeing's top government customers with React Native and C++}
+		\resumeSubItem{SkyFlix}{Developed in-flight entertainment software for business jets including Boeing's top government contracts with React Native and C++}
     \resumeSubHeadingListEnd
 
 
