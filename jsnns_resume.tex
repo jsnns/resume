@@ -70,7 +70,7 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -90,55 +90,53 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
 \resumeSubHeadingListStart
+
+	\resumeSubheading
+	{NVIDIA GeForce NOW}{San Francisco, CA}
+	{Senior Software Engineer}{September 2020 - Current}
+			\begin{itemize}
+				\item Owned two quarter-long projects end-to-end (more details in sections below)
+				\item Hired and mentored three winter interns, all three received "top 10\%" during annual reviews
+				\item Lead ten-part cross-team educational series on Advanced Typescript Development for 30+ engineers
+				\item Implemented cross-team process for code promotion across three products to coordinate QA and product engineers
+			\end{itemize}
+			\begin{itemize}[label={}, leftmargin=10pt]
+				\item \resumeItemNoBullet{GeForce NOW Survey Engine}{}
+					\begin{itemize}
+						\item Enabled segmented feedback collection for one-million MAU through platform-native survey experiences
+						\item Designed survey-engine for iOS, Android, Mac and Windows with full support for 50 languages
+						\item Built user segmentation engine to target users matching over 300 real-time attributes
+						\item Developed native client integrations with React and React Native for iOS and Android, Windows and Mac
+						\item Delivered survey-design portal for internal customers and game publishers to design custom surveys
+					\end{itemize}
+			\end{itemize}
   
 	\resumeSubheading
  	{Saleae Inc.}{San Francisco, CA}
- 	{Full-Stack Software Engineer}{November 2019 - Current}
-         	\resumeItemListStart
-        			\item Reduced single-frame render time by 50\% for a mixed-signal oscilloscope rendering system in C++ and Typescript
-        			\item Authored a Typescript library to upgrade and downgrade more than 100 typescript types across software versions
-        			\item Led migration to MobX from Redux state management across a team of three engineers
-        			\item Reduced complexity of 100+ React components by improving reuse and composability
-        		\resumeItemListEnd
+ 	{Full-Stack Software Engineer}{November 2019 - March 2020}
+		\resumeItemListStart
+			\item Reduced single-frame render time by 50\% for a mixed-signal oscilloscope rendering system in C++ and React (TSX)
+			\item Led migration to MobX from Redux state management across a team of engineers
+        \resumeItemListEnd
+
+	\vspace{7pt}
 
 	\resumeSubheading
 	{Bridgewater Associates}{Westport, CT}
 	{Security Software Engineer}{June 2018 - November 2019}
-		\begin{itemize}[leftmargin=4pt]
-			\vspace{7pt}
-			\resumeItemNoBullet{Insider Threat Investigation Toolset}{}
-				\begin{itemize}
-					\item Engineered a set of 3 threat investigation tools with Go and Rust to mitigate insider threat attack vectors
-					\item Built data collection services for AWS/Azure and on-site endpoints for Exchange, S3, RDS, and SAML via SSO
-					\item Engineered a Go GraphQL backend interface to access millions of graph nodes and relationships persisted in Neo4j
-					\item Coached five investigators though training on new investigation tools over three weeks
-					\item Built a WebGL Graph rendering system for hundreds of thousands of nodes and edges in React
-				\end{itemize}
-
-			\resumeItemNoBullet{Proxy Policy Configuration Engine}{}
-				\begin{itemize}
-					\item Managed a proxy configuration engine tracking over 10,000 policy exceptions developed in Go on AWS EKS
-					\item Collaborated with five teams on processes to mitigate risk for over 1,000 policy exceptions
-					\item Defined a yearly audit process spanning across four departments and thousands of active audit items
-				\end{itemize}
-
-			\resumeItemNoBullet{Security Infrastructure}{}
-				\begin{itemize}
-					\item Reduced container attack surface by 80\% through refactoring AWS build pipelines to utilize Bazel
-					\item Architected and built AWS infrastructure to process terabytes of graph data per week
-					\item Improved critical infrastructure visibility by 90\% though new network visibility tooling
-					\item Lead 5x department-wide grow of Terraform adoption through education sessions and team demos
-					\item Designed a static code analysis pipeline for over 100 CI/CD pipelines with SonarCloud
-				\end{itemize}
+		\begin{itemize}
+			\item Engineered a set of 3 threat investigation tools with Go and Rust to mitigate insider threat attack vectors
+			\item Engineered a Go GraphQL backend interface to access millions of graph nodes and relationships persisted in Neo4j
+			\item Built a WebGL Graph rendering system for hundreds of thousands of nodes and edges in React
+			\item Architected and built AWS infrastructure to process terabytes of graph data per week
+			\item Improved critical infrastructure visibility by 90\% though new network visibility tooling
 		\end{itemize}
+	
+	\vspace{7pt}
 
 	\resumeSubheading
 	{Mad Mobile}{Tampa, FL}
 	{Software Engineer}{October 2017 - June 2018}
-		\resumeItemListStart
-			\item Created a GDPR compliant analytics system for an average throughput of 100k events/second  on AWS Fargate
-			\item Lead adoption of TDD across a team of ten engineers
-		\resumeItemListEnd
 
 	\resumeSubheading
 	{SentinelSix}{Columbia, SC}
@@ -161,9 +159,6 @@
 			\end{itemize}
 
 		\resumeSubItem{Eyelang}{A dynamically typed interpreted language with an english-like grammar}
-			\begin{itemize}
-				\item Implemented a lexer, parser, and interpreter for Eyelang's grammar in Rust
-			\end{itemize}
 		
 		\resumeSubItem{Switch CMS}{Switch is a modern alternative to out of date and costly cabin management systems}
 			\begin{itemize}
@@ -178,9 +173,12 @@
  \section{Skills}
   \resumeSubHeadingListStart
     \item{
-    	\textbf{Languages}{: TypeScript, Python, JavaScript, Rust, Go }
+    	\textbf{Languages}{: TypeScript, Python, Rust, Go }
 	}
-	\item {
+    \item{
+    	\textbf{Frameworks}{: React, React Native, Angular, SwiftUI, Flask, Tensorflow }
+	}
+	\item {s
 		\textbf{Cloud Technologies}{: AWS, Azure, Heroku, Firebase, Kubernetes, Docker}
 	}
     \item {
@@ -188,10 +186,10 @@
 		\hfill
 	}
 	\item {
-		\textbf{Standards}{: GraphQL, REST, SOAP }
+		\textbf{Standards}{: GraphQL, REST, SOAP, TCP/IP }
 	}
 	\item {
-		\textbf{Software}{: Splunk, RSA Archer, Active Directory, Gerrit, GitLab, Rundeck, PagerDuty, Qualys, Jira }
+		\textbf{Software}{: Jira, Splunk, RSA Archer, Active Directory, Gerrit, GitLab, Rundeck, PagerDuty, Qualys}
 	}
   \resumeSubHeadingListEnd
 
